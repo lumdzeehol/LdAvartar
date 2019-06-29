@@ -1,4 +1,4 @@
-import Canvas from './src/ld-avartar/index.js'
+import Canvas from './dist/index.js'
   
 // 获取一个canvas对象并初始化头像
 const cans = new Canvas('test', 180, 180)

@@ -50,6 +50,4 @@ class Avartar {
   
 }
 
-export {
-  Avartar
-}
+export default Avartar;

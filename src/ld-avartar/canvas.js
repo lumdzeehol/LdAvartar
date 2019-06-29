@@ -1,5 +1,5 @@
 'use strict'
-import { Avartar } from './avartar.js';
+import Avartar from './avartar.js';
 
 class Canvas {
   el; // DOM节点
@@ -61,7 +61,7 @@ class Canvas {
   }
 
   // 画头像遮罩边框层
-  drawMask(style = 'rgba(240,240,240, .7)', maskWidth = 40) {
+  drawMask(style = 'rgba(240,240,240, .7)', maskWidth = 20) {
     this.context.fillStyle = style;
     this.context.fillRect(0,0,this.width, maskWidth);
     this.context.fillRect(this.width - maskWidth, maskWidth, maskWidth, this.height - maskWidth);
@@ -84,4 +84,4 @@ class Canvas {
   }
 }
 
-export { Canvas }
+export default Canvas
