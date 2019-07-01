@@ -27,9 +27,6 @@ module.exports = {
       ]
     }]
   },
-  externals: {
-    xgplayer: 'xgplayer'
-  },
   optimization: {
     // minimize: true
   }
