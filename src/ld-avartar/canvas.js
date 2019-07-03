@@ -1,5 +1,5 @@
 'use strict'
-import Avartar from './avartar.js';
+import { Avartar } from './avartar';
 
 class Canvas {
   el; // DOM节点
@@ -84,4 +84,6 @@ class Canvas {
   }
 }
 
-export default Canvas
+export {
+  Canvas
+}
