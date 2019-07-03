@@ -27,8 +27,8 @@ module.exports = {
       ]
     }]
   },
-  optimization: {
-    // minimize: true
-  }
+  // optimization: {
+  //   minimize: true
+  // }
 }
 
